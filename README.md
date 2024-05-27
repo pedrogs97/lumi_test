@@ -65,7 +65,10 @@ Este repositório é dividido em duas partes principais: backend e frontend. A a
 2. Instale as dependências:
    ```sh
    npm install
-3. Inicie o servidor:
+3. Adicione a URL do banco de dados no arquivo `.env`:
+   ```sh
+   API_BASE_URL=http://serverOrIP:8000/api
+4. Inicie o servidor:
    ```sh
    npm start
 
